@@ -2,8 +2,8 @@
 import scrapy
 
 
-class BarronsspiderSpider(scrapy.Spider):
-    name = 'BarronsSpider'
+class BarronsSpider(scrapy.Spider):
+    name = 'Barrons'
     allowed_domains = ['member.rakuten-sec.co.jp']
     start_urls = ['http://member.rakuten-sec.co.jp/']
 
